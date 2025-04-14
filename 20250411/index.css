@@ -1,0 +1,44 @@
+* {
+    font-family: cursive;
+}
+
+div p{
+    color:red;
+}
+
+body > h1 {
+    color: blue;
+    font-weight: bold;
+}
+
+p+p {
+    background-color: aqua;
+}
+
+h1+p {
+    font-size: x-large;
+}
+
+p~p {
+    text-decoration: overline;
+}
+
+#egyedi:hover {
+    text-shadow: green 0px 0px 10px;
+}
+
+.elsoosztaly {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p[class]{
+    text-transform: uppercase;
+}
+
+p[lang|="en"]{
+    color: royalblue;
+}
+
+:visited{
+    color: pink;
+}
