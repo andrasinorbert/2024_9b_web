@@ -1,0 +1,68 @@
+
+table{
+    border-collapse: collapse;
+}
+
+table > tbody > tr:nth-child(2n) {
+    background-color: gray;
+}
+
+table > tbody > tr:nth-child(2n+1) {
+    background-color: #4d4d4d;
+}
+
+td:hover{
+    color: white;
+    font-size: 1.2em;
+}
+
+tr:hover td{
+    background-color: yellow;
+}
+
+.col-1:hover,
+.col-1:hover ~ .col-1,
+tr:hover .col-1 {
+    background-color: yellow;
+}
+.col-2:hover,
+.col-2:hover ~ .col-2,
+tr:hover .col-2 {
+    background-color: yellow;
+}
+.col-4:hover,
+.col-4:hover ~ .col-4,
+tr:hover .col-4 {
+    background-color: yellow;
+}
+.col-5:hover,
+.col-5:hover ~ .col-5,
+tr:hover .col-5 {
+    background-color: yellow;
+}
+.col-6:hover,
+.col-6:hover ~ .col-6,
+tr:hover .col-6 {
+    background-color: yellow;
+}
+.col-7:hover,
+.col-7:hover ~ .col-7,
+tr:hover .col-7 {
+    background-color: yellow;
+}
+.col-8:hover,
+.col-8:hover ~ .col-8,
+tr:hover .col-8 {
+    background-color: yellow;
+}
+.col-9:hover,
+.col-9:hover ~ .col-9,
+tr:hover .col-9 {
+    background-color: yellow;
+}
+.col-10:hover,
+.col-10:hover ~ .col-10,
+tr:hover .col-10 {
+    background-color: yellow;
+}
+/* Adj minden cellához (td) egyedi col-x osztályt a HTML-ben! */
